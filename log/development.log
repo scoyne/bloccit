@@ -47,6 +47,7 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 29ms (Views: 25.5ms)
 
 
+<<<<<<< HEAD
 Started GET "/welcome/contact" for 127.0.0.1 at 2018-04-07 15:26:04 -0400
   
 ActionController::RoutingError (No route matches [GET] "/welcome/contact"):
@@ -280,5 +281,26 @@ Processing by WelcomeController#index as HTML
   Rendering welcome/index.html.erb within layouts/application
   Rendered welcome/index.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 52ms (Views: 48.5ms)
+=======
+Started GET "/welcome/contact" for 127.0.0.1 at 2018-04-06 10:16:44 -0400
+Processing by WelcomeController#contact as HTML
+  Rendering welcome/contact.html.erb within layouts/application
+  Rendered welcome/contact.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 470ms (Views: 239.6ms)
+
+
+Started GET "/welcome/contact" for 127.0.0.1 at 2018-04-06 10:16:50 -0400
+Processing by WelcomeController#contact as HTML
+  Rendering welcome/contact.html.erb within layouts/application
+  Rendered welcome/contact.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 44ms (Views: 41.2ms)
+
+
+Started GET "/welcome/contact" for 127.0.0.1 at 2018-04-06 10:18:09 -0400
+Processing by WelcomeController#contact as HTML
+  Rendering welcome/contact.html.erb within layouts/application
+  Rendered welcome/contact.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 39ms (Views: 37.4ms)
+>>>>>>> assignment-bloccit-static-page
 
 
