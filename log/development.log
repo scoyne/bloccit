@@ -304,3 +304,386 @@ Completed 200 OK in 39ms (Views: 37.4ms)
 >>>>>>> assignment-bloccit-static-page
 
 
+Started GET "/welcome/about" for 127.0.0.1 at 2018-04-08 11:06:31 -0400
+  
+SyntaxError (/Users/coynes/bloc/code/bloccit/app/controllers/welcome_controller.rb:10: syntax error, unexpected <<, expecting keyword_end
+<<<<<<< HEAD
+  ^
+/Users/coynes/bloc/code/bloccit/app/controllers/welcome_controller.rb:17: syntax error, unexpected >>, expecting keyword_end
+>>>>>>> assignment-bloccit-testi
+  ^):
+  
+app/controllers/welcome_controller.rb:10: syntax error, unexpected <<, expecting keyword_end
+app/controllers/welcome_controller.rb:17: syntax error, unexpected >>, expecting keyword_end
+Started GET "/welcome/about" for 127.0.0.1 at 2018-04-08 11:08:04 -0400
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 523ms (Views: 344.7ms)
+
+
+Started GET "/welcome/about" for 127.0.0.1 at 2018-04-08 11:08:09 -0400
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 28ms (Views: 25.1ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2018-04-08 11:08:11 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 54ms (Views: 50.2ms)
+
+
+Started GET "/welcome/about" for 127.0.0.1 at 2018-04-08 11:08:12 -0400
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 63ms (Views: 59.9ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2018-04-08 11:08:12 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 59ms (Views: 55.8ms)
+
+
+Started GET "/welcome/about" for 127.0.0.1 at 2018-04-08 11:08:13 -0400
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 45ms (Views: 41.7ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2018-04-08 11:08:14 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 48ms (Views: 45.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 11:10:22 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 620ms (Views: 370.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 11:13:38 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 534ms (Views: 294.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 11:13:43 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 65ms (Views: 60.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 11:13:45 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 41ms (Views: 36.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 11:13:48 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 41ms (Views: 34.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 11:19:58 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 500ms (Views: 285.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 11:27:42 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 540ms (Views: 335.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 11:28:07 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 63ms (Views: 55.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 11:28:10 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 33ms (Views: 28.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 11:28:28 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 31ms (Views: 29.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 11:29:31 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 36ms (Views: 33.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 11:29:35 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 33ms (Views: 27.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 11:31:59 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 42ms (Views: 39.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 11:43:35 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 53ms (Views: 48.5ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2018-04-08 11:43:39 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 67ms (Views: 64.1ms)
+
+
+Started GET "/welcome/faq" for 127.0.0.1 at 2018-04-08 11:43:57 -0400
+Processing by WelcomeController#faq as HTML
+  Rendering welcome/faq.html.erb within layouts/application
+  Rendered welcome/faq.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 34.4ms)
+
+
+Started GET "/welcome/faq" for 127.0.0.1 at 2018-04-08 11:45:15 -0400
+Processing by WelcomeController#faq as HTML
+  Rendering welcome/faq.html.erb within layouts/application
+  Rendered welcome/faq.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 324ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `welcome_contact_path' for #<#<Class:0x007f87523170c8>:0x007f87526b8358>
+Did you mean?  welcome_conact_path
+               welcome_conact_url):
+    15:         <li> <%= link_to "Home", welcome_index_path %> </li>
+    16:         <li> <%= link_to "About", welcome_about_path %> </li>
+    17:         <li> <%= link_to "FAQ", welcome_faq_path %> </li>
+    18:         <li> <%= link_to "Contact", welcome_contact_path %> </li>
+    19:       </ul>
+    20:       <%= yield %>
+    21:     </div>
+  
+app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb___2808833993457232141_70109590029940'
+Started GET "/welcome/contact" for 127.0.0.1 at 2018-04-08 11:45:39 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/welcome/contact"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.3) lib/puma/configuration.rb:225:in `call'
+puma (3.11.3) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.3) lib/puma/server.rb:438:in `process_client'
+puma (3.11.3) lib/puma/server.rb:302:in `block in run'
+puma (3.11.3) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/welcome/contact" for 127.0.0.1 at 2018-04-08 11:46:30 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/welcome/contact"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.3) lib/puma/configuration.rb:225:in `call'
+puma (3.11.3) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.3) lib/puma/server.rb:438:in `process_client'
+puma (3.11.3) lib/puma/server.rb:302:in `block in run'
+puma (3.11.3) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/welcome/contact" for 127.0.0.1 at 2018-04-08 11:46:32 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/welcome/contact"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.3) lib/puma/configuration.rb:225:in `call'
+puma (3.11.3) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.3) lib/puma/server.rb:438:in `process_client'
+puma (3.11.3) lib/puma/server.rb:302:in `block in run'
+puma (3.11.3) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/welcome/contact" for 127.0.0.1 at 2018-04-08 11:46:35 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/welcome/contact"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.3) lib/puma/configuration.rb:225:in `call'
+puma (3.11.3) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.3) lib/puma/server.rb:438:in `process_client'
+puma (3.11.3) lib/puma/server.rb:302:in `block in run'
+puma (3.11.3) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-04-08 11:46:41 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 352ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `welcome_contact_path' for #<#<Class:0x007f87523170c8>:0x007f87558e9250>
+Did you mean?  welcome_conact_path
+               welcome_conact_url):
+    14:       <ul class="nav nav-tabs">
+    15:         <li> <%= link_to "Home", welcome_index_path %> </li>
+    16:         <li> <%= link_to "About", welcome_about_path %> </li>
+    17:         <li> <%= link_to "Contact", welcome_contact_path %> </li>
+    18:         <li> <%= link_to "FAQ", welcome_faq_path %> </li>
+    19:       </ul>
+    20:       <%= yield %>
+  
+app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb___2808833993457232141_70109616326080'
+Started GET "/" for 127.0.0.1 at 2018-04-08 11:50:32 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 36ms (Views: 34.0ms)
+
+
+Started GET "/welcome/contact" for 127.0.0.1 at 2018-04-08 11:50:37 -0400
+Processing by WelcomeController#contact as HTML
+  Rendering welcome/contact.html.erb within layouts/application
+  Rendered welcome/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 69ms (Views: 65.3ms)
+
+
+Started GET "/welcome/faq" for 127.0.0.1 at 2018-04-08 11:50:39 -0400
+Processing by WelcomeController#faq as HTML
+  Rendering welcome/faq.html.erb within layouts/application
+  Rendered welcome/faq.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 45ms (Views: 41.8ms)
+
+
+Started GET "/welcome/about" for 127.0.0.1 at 2018-04-08 11:50:40 -0400
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 51ms (Views: 49.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2018-04-08 11:50:41 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 41ms (Views: 38.9ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2018-04-08 11:57:21 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 54ms (Views: 49.4ms)
+
+
+Started GET "/welcome/about" for 127.0.0.1 at 2018-04-08 11:57:24 -0400
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 61ms (Views: 57.2ms)
+
+
+Started GET "/welcome/contact" for 127.0.0.1 at 2018-04-08 11:57:28 -0400
+Processing by WelcomeController#contact as HTML
+  Rendering welcome/contact.html.erb within layouts/application
+  Rendered welcome/contact.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 53ms (Views: 49.0ms)
+
+
+Started GET "/welcome/faq" for 127.0.0.1 at 2018-04-08 11:57:28 -0400
+Processing by WelcomeController#faq as HTML
+  Rendering welcome/faq.html.erb within layouts/application
+  Rendered welcome/faq.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 54ms (Views: 49.0ms)
+
+

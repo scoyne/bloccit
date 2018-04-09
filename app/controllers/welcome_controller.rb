@@ -1,4 +1,5 @@
 class WelcomeController < ApplicationController
+
   def index
   end
 
@@ -7,12 +8,8 @@ class WelcomeController < ApplicationController
 
   def contact
   end
-<<<<<<< HEAD
-  
-=======
 
   def faq
   end
 
->>>>>>> assignment-bloccit-testing
 end
