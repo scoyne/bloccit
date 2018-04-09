@@ -687,3 +687,129 @@ Processing by WelcomeController#faq as HTML
 Completed 200 OK in 54ms (Views: 49.0ms)
 
 
+Started GET "/welcome/faq" for 127.0.0.1 at 2018-04-09 19:13:23 -0400
+Processing by WelcomeController#faq as HTML
+  Rendering welcome/faq.html.erb within layouts/application
+  Rendered welcome/faq.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 619ms (Views: 383.1ms)
+
+
+Started GET "/welcome/about" for 127.0.0.1 at 2018-04-09 19:13:25 -0400
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 86ms (Views: 80.2ms)
+
+
+Started GET "/welcome/about" for 127.0.0.1 at 2018-04-09 19:13:28 -0400
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 37ms (Views: 32.4ms)
+
+
+Started GET "/welcome/about" for 127.0.0.1 at 2018-04-09 19:13:29 -0400
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 41ms (Views: 38.3ms)
+
+
+Started GET "/welcome/about" for 127.0.0.1 at 2018-04-09 19:13:30 -0400
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 75ms (Views: 70.9ms)
+
+
+Started GET "/welcome/contact" for 127.0.0.1 at 2018-04-09 19:13:30 -0400
+Processing by WelcomeController#contact as HTML
+  Rendering welcome/contact.html.erb within layouts/application
+  Rendered welcome/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 61ms (Views: 58.2ms)
+
+
+Started GET "/welcome/faq" for 127.0.0.1 at 2018-04-09 19:13:32 -0400
+Processing by WelcomeController#faq as HTML
+  Rendering welcome/faq.html.erb within layouts/application
+  Rendered welcome/faq.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 65ms (Views: 62.0ms)
+
+
+Started GET "/welcome/contact" for 127.0.0.1 at 2018-04-09 19:13:35 -0400
+Processing by WelcomeController#contact as HTML
+  Rendering welcome/contact.html.erb within layouts/application
+  Rendered welcome/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 62ms (Views: 58.5ms)
+
+
+Started GET "/welcome/about" for 127.0.0.1 at 2018-04-09 19:13:37 -0400
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 70ms (Views: 67.1ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2018-04-09 19:13:39 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 54ms (Views: 50.0ms)
+
+
+Started GET "/welcome/about" for 127.0.0.1 at 2018-04-09 19:13:40 -0400
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 65ms (Views: 62.5ms)
+
+
+Started GET "/welcome/about" for 127.0.0.1 at 2018-04-09 19:13:41 -0400
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 54ms (Views: 50.0ms)
+
+
+Started GET "/welcome/about" for 127.0.0.1 at 2018-04-09 19:13:41 -0400
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 54ms (Views: 50.4ms)
+
+
+Started GET "/welcome/about" for 127.0.0.1 at 2018-04-09 19:13:41 -0400
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 59ms (Views: 54.6ms)
+
+
+Started GET "/welcome/about" for 127.0.0.1 at 2018-04-09 19:20:14 -0400
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1953ms (Views: 1950.6ms)
+
+
+Started GET "/welcome/about" for 127.0.0.1 at 2018-04-09 19:20:17 -0400
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 56ms (Views: 52.8ms)
+
+
+Started GET "/welcome/about" for 127.0.0.1 at 2018-04-09 19:22:11 -0400
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1908ms (Views: 1905.4ms)
+
+
+Started GET "/welcome/about" for 127.0.0.1 at 2018-04-09 19:22:45 -0400
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2707ms (Views: 2705.0ms)
+
+
