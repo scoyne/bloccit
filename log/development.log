@@ -304,3 +304,126 @@ Completed 200 OK in 39ms (Views: 37.4ms)
 >>>>>>> assignment-bloccit-static-page
 
 
+Started GET "/" for 192.150.115.150 at 2018-04-09 17:03:23 +0000
+  
+SyntaxError (/home/ec2-user/environment/bloccit/app/controllers/welcome_controller.rb:10: syntax error, unexpected <<, expecting keyword_end
+<<<<<<< HEAD
+  ^
+/home/ec2-user/environment/bloccit/app/controllers/welcome_controller.rb:17: syntax error, unexpected >>, expecting keyword_end
+>>>>>>> assignment-bloccit-testi
+  ^):
+  
+app/controllers/welcome_controller.rb:10: syntax error, unexpected <<, expecting keyword_end
+app/controllers/welcome_controller.rb:17: syntax error, unexpected >>, expecting keyword_end
+Started GET "/" for 192.150.115.150 at 2018-04-09 17:07:30 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2813ms (Views: 2702.4ms)
+
+
+Started GET "/welcome/about" for 192.150.115.150 at 2018-04-09 17:07:46 +0000
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 18.7ms)
+
+
+Started GET "/welcome/index" for 192.150.115.150 at 2018-04-09 17:07:46 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 34.6ms)
+
+
+Started GET "/welcome/about" for 192.150.115.150 at 2018-04-09 17:07:47 +0000
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 23ms (Views: 22.1ms)
+
+
+Started GET "/welcome/about" for 192.150.115.150 at 2018-04-09 17:07:48 +0000
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 21.8ms)
+
+
+Started GET "/welcome/index" for 192.150.115.150 at 2018-04-09 17:07:49 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 21.6ms)
+
+
+Started GET "/welcome/about" for 192.150.115.150 at 2018-04-09 17:07:49 +0000
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 39ms (Views: 38.1ms)
+
+
+Started GET "/welcome/about" for 192.150.115.150 at 2018-04-09 17:08:38 +0000
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 43ms (Views: 41.9ms)
+
+
+Started GET "/welcome/about" for 192.150.115.150 at 2018-04-09 17:08:41 +0000
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 20.9ms)
+
+
+Started GET "/welcome/about" for 192.150.115.150 at 2018-04-09 17:08:43 +0000
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 24ms (Views: 23.6ms)
+
+
+Started GET "/welcome/index" for 192.150.115.150 at 2018-04-09 17:08:43 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 20.0ms)
+
+
+Started GET "/welcome/index" for 192.150.115.150 at 2018-04-09 17:08:44 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 19.8ms)
+
+
+Started GET "/welcome/about" for 192.150.115.150 at 2018-04-09 17:08:45 +0000
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 20.2ms)
+
+
+Started GET "/welcome/about" for 192.150.115.150 at 2018-04-09 17:08:46 +0000
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 20ms (Views: 19.4ms)
+
+
+Started GET "/welcome/index" for 192.150.115.150 at 2018-04-09 17:08:47 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 19.8ms)
+
+
+Started GET "/welcome/about" for 192.150.115.150 at 2018-04-09 17:08:47 +0000
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 19.7ms)
+
+
