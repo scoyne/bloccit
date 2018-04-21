@@ -24,36 +24,41 @@ RSpec.describe PostsController, type: :controller do
 
 # Testing Post / Create action
   describe "POST create" do
-    it "increases the number of Post by 1" do
-      expect{ post :create, params: { topic_id: my_topic.id, post: { title: RandomData.random_sentence, body: RandomData.random_paragraph } } }.to change(Post,:count).by(1)
+    it "increases the number of SponsoredPost by 1" do
+      expect{ sponsored_post :create, params: { topic_id: my_topic.id, sponsored_post: { title: RandomData.random_sentence, body: RandomData.random_paragraph } } }.to change(Post,:count).by(1)
     end
 
-    it "assigns the new post to @post" do
-      post :create, params: { topic_id: my_topic.id, post: { title: RandomData.random_sentence, body: RandomData.random_paragraph } }
-      expect(assigns(:post)).to eq Post.last
+    it "assigns the new sponsored_post to @sponsored_post" do
+      post :create, params: { topic_id: my_topic.id, sponsored_post: { title: RandomData.random_sentence, body: RandomData.random_paragraph } }
+      expect(assigns(:sponsored_post)).to eq SponsoredPost.last
     end
 
-    it "redirects to the new post" do
-      post :create, params: { topic_id: my_topic.id, post: { title: RandomData.random_sentence, body: RandomData.random_paragraph } }
-      expect(response).to redirect_to [my_topic, Post.last]
+    it "redirects to the new sponsored_post" do
+      post :create, params: { topic_id: my_topic.id, sponsored_post: { title: RandomData.random_sentence, body: RandomData.random_paragraph } }
+      expect(response).to redirect_to [my_topic, SponsoredPost.last]
     end
   end
+
+
+
+
+
 
 # Testing Show action
   describe "GET show" do
     it "returns http success" do
-      get :show, params: { topic_id: my_topic.id, id: my_post.id }
+      get :show, params: { topic_id: my_topic.id, id: my_sponsored_post.id }
       expect(response).to have_http_status(:success)
     end
 
     it "renders the #show view" do
-      get :show, params: { topic_id: my_topic.id, id: my_post.id }
+      get :show, params: { topic_id: my_topic.id, id: my_sponsored_post.id }
       expect(response).to render_template :show
     end
 
     it "assigns my_post to @post" do
-      get :show, params: { topic_id: my_topic.id, id: my_post.id }
-      expect(assigns(:post)).to eq(my_post)
+      get :show, params: { topic_id: my_topic.id, id: my_sponsored_post.id }
+      expect(assigns(:sponsored_post)).to eq(my_sponsored_post)
     end
   end
 
