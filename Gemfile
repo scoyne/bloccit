@@ -28,11 +28,13 @@ source 'https://rubygems.org'
  # Use Uglifier as compressor for JavaScript assets
  gem 'uglifier', '>= 1.3.0'
 
- # Use jquery as the JavaScript library
+# Use jquery as the JavaScript library
  gem 'jquery-rails'
- # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
+
+# Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
  gem 'turbolinks', '~> 5'
- # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+
+# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
  gem 'jbuilder', '~> 2.5'
 
  gem 'thor', '0.19.1'
@@ -45,6 +47,10 @@ source 'https://rubygems.org'
  group :development, :test do
     gem 'rspec-rails', '~> 3.0'
     gem 'rails-controller-testing'
+    gem 'shoulda'
  end
 
- gem 'bootstrap-sass'
+  gem 'bootstrap-sass'
+
+# Used for encrypting passwords
+  gem 'bcrypt'
