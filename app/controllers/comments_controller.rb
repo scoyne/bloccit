@@ -43,5 +43,5 @@ class CommentsController < ApplicationController
       redirect_to [comment.post.topic, comment.post]
     end
   end
-
+  
 end
