@@ -19,20 +19,40 @@
   </div>
 </div>
 
-<small>
-  <% if current_user_has_posts?(@user) %>
-    <h2>Posts</h2>
-      <%= render @user.posts %>
-    <% else %>
-      <%= "#{@user.name} has not submitted any posts yet." %>
-  <% end %>
+<% if current_user_has_posts?(@user) %>
+  <h2>Posts</h2>
+  <%= render @user.posts %>
+  <% else %>
+  <%= "#{@user.name} has not submitted any posts yet." %>
+<% end %>
+<hr />
 
-  <hr />
+<% if current_user_has_comments?(@user) %>
+  <h2>Comments</h2>
+  <%= render @user.comments %>
+  <% else %>
+  <%= "#{@user.name} has not submitted any comments yet." %>
+<% end %>
+<hr />
 
-  <% if current_user_has_comments?(@user) %>
-    <h2>Comments</h2>
-      <%= render @user.comments %>
-    <% else %>
-      <%= "#{@user.name} has not submitted any comments yet." %>
+<% if current_user_has_favorites?(@user) %>
+  <h2>Favorites</h2>
+  <% @user.favorites.each do |fav| %>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="media">
+          <br />
+          <% avatar_url = @user.avatar_url(64) %>
+          <% if avatar_url %>
+            <div class="media-left">
+              <%= image_tag avatar_url, class: 'media-object' %>
+            </div>
+          <% end %>
+          <div class="media-body">
+            <%= render partial: 'posts/post', locals: { post: fav.post } %>
+          </div>
+        </div>
+      </div>
+    </div>
   <% end %>
-</small>
+<% end %>
