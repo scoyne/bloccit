@@ -33,17 +33,17 @@ Bloccit is a Reddit replica that allows users to sign up, create posts, comment 
 * Clone the repository
 * Run 
 
-_bundle install_
+  _bundle install_
 
 * Create and migrate the database
 
-_rake db:create_ 
-_rake db:migrate_
+  _rake db:create_ 
+  _rake db:migrate_
 
 * Start server
 
-_rails s_
+  _rails s_
 
-Run app in your favorite web browser type in the address list
+* Run app in your favorite web browser type in the address list
 
-_127.0.0.1:3000_
+  _127.0.0.1:3000_
